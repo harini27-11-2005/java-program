@@ -1,79 +1,36 @@
 import java.util.*;
-2
-​
-3
 public class Main {
-4
     public static void main(String[] args) {
-5
         Scanner sc = new Scanner(System.in);
-6
-​
-7
         String name = sc.nextLine();
-8
         int m1 = sc.nextInt();
-9
         int m2 = sc.nextInt();
-10
         int m3 = sc.nextInt();
-11
         int m4 = sc.nextInt();
-12
         int m5 = sc.nextInt();
-13
-​
-14
         int total = m1 + m2 + m3 + m4 + m5;
-15
         double average = total / 5.0;
-16
-​
-17
         String grade;
-18
         if (average == 100) {
-19
             grade = "S";
-20
         } else if (average >= 90) {
-21
             grade = "A";
-22
         } else if (average >= 80) {
-23
             grade = "B";
-24
         } else if (average >= 70) {
-25
             grade = "C";
-26
         } else if (average >= 60) {
-27
             grade = "D";
-28
         } else if (average >= 50) {
-29
             grade = "E";
-30
         } else {
-31
             grade = "Fail";
-32
         }
-33
-
-34
         System.out.println("Name of the Student:"+name);
-35
         System.out.println("Total Mark:"+total);
-36
         System.out.printf("Average Mark:%.1f\n",average);
-37
         System.out.println("Grade Mark:"+grade);
-38
     }
-39
 }
-40
+
 ​
