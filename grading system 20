@@ -62,20 +62,18 @@ public class Main {
 32
         }
 33
-​
+
 34
-        // Output
-35
         System.out.println("Name of the Student:"+name);
-36
+35
         System.out.println("Total Mark:"+total);
-37
+36
         System.out.printf("Average Mark:%.1f\n",average);
-38
+37
         System.out.println("Grade Mark:"+grade);
-39
+38
     }
-40
+39
 }
-41
+40
 ​
